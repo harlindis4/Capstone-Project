@@ -1,0 +1,180 @@
+.first-container {
+  background-color: #c9eeff;
+  height: 750px;
+  position: relative;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.first-title {
+  font-size: 150px;
+  color: #62cdff;
+  font-family: "Marck Script", cursive;
+}
+
+.first-paragraph {
+  font-size: 50px;
+  color: #62cdff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.second-container {
+  text-align: center;
+  margin-top: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 100px;
+}
+
+.second-container h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  color: #62cdff;
+  padding-top: 100px;
+}
+
+.mypresentation img {
+  border-radius: 50%;
+}
+.mypresentation h1 {
+  color: #62cdff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.5rem;
+  padding-top: 0px;
+}
+
+.mypresentation p {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 30%;
+  margin: auto;
+  color: #40514e;
+  padding-top: 100px;
+}
+
+.skills h1 {
+  padding-top: 150px;
+  font-size: 2.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 2;
+  grid-template-columns: 2;
+  row-gap: 30px;
+  text-align: left;
+  margin: 100px auto 0 auto;
+  width: 50%;
+  column-gap: 20px;
+}
+
+.grid .first-image {
+  grid-area: 1/1/1/1;
+}
+.first-image img {
+  width: 300px;
+  height: 200px;
+  border-radius: 20%;
+}
+
+.grid .second-image {
+  grid-area: 2/1/2/1;
+}
+.second-image img {
+  height: 200px;
+  width: 300px;
+  border-radius: 20%;
+}
+
+.grid .first_skills_paragraph {
+  grid-area: 1/2/1/2;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #40514e;
+  font-size: 20px;
+}
+
+.grid .second_skills_paragraph {
+  color: #40514e;
+  font-size: 20px;
+}
+
+.grid h2 {
+  color: #62cdff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.contact {
+  margin-top: 200px;
+}
+
+.contact h2 {
+  color: #62cdff;
+  font-size: 2.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact h3 {
+  font-size: 1.17em;
+  color: #62cdff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #40514e;
+  font-size: 20px;
+  padding-top: 30px;
+  margin-bottom: 50px;
+}
+
+.contact a {
+  font-size: 30px;
+  background-color: #62cdff;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact a:hover {
+  background-color: #aa77ff;
+}
+
+.third-container {
+  background-color: #97deff;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  position: relative;
+  height: 30%;
+  padding: 50px 0 20px 0;
+  text-align: center;
+}
+
+.third-container a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  font-weight: bold;
+  color: #62cdff;
+}
+
+.third-container a:hover {
+  color: #aa77ff;
+}
+
+.third-container {
+  color: white;
+  font-size: 23px;
+  font-family: Arial, Helvetica, sans-serif;
+}
